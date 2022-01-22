@@ -87,7 +87,7 @@ patch -p1 <../PATCH/firewall/luci-app-firewall_add_fullcone.patch
 # FullCone 相关组件
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/openwrt-fullconenat package/lean/openwrt-fullconenat
 pushd package/lean/openwrt-fullconenat
-patch -p1 <../../../../PATCH/firewall/fullcone6.patch
+patch -p2 <../../../../PATCH/firewall/fullcone6.patch
 popd
 
 ### 获取额外的基础软件包 ###
